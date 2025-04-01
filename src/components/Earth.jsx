@@ -7,7 +7,7 @@ import { OrbitControls, useTexture } from "@react-three/drei";
 
 export default function Earth() {
     const earthRef = useRef();  // 📌 "Hey, that's my Earth!"
-    const texture = useTexture("public/earth.jpg"); // 🎨 Load the Earth's texture!
+    const texture = useTexture("public/8k_earth_daymap.jpg"); // 🎨 Load the Earth's texture!
   
     useFrame(() => {
       earthRef.current.rotation.y += 0.005; // 🌍 Keep spinning a little every frame!
